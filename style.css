@@ -1,0 +1,111 @@
+body {
+  background-color: #244397;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: #555555;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Graduate;
+  font-size: 30px;
+}
+
+.topbar {
+  background-color: #DBDBDB;
+  font-size: 24px;
+  padding: 10px;
+  background: linear-gradient(to bottom,#c4c4c4,#eee 20%, #c4c4c4);
+}
+
+.topbar__address{
+  text-align: right;
+  line-height: 36px;
+}
+
+.topbar__phone {
+  vertical-align: top;
+}
+
+.topbar a {
+  display: inline-block;
+  width: 50%;
+}
+
+.topbar div,
+header,
+footer,
+nav,
+main,
+footer div {
+  margin: 0 auto;
+  width: 940px;
+}
+
+nav {
+  background-color: #DBDBDB;
+  text-transform: uppercase;
+  color: #888888;
+}
+
+nav li {
+  display: inline;
+}
+
+main {
+  background-color: #FFF;
+}
+
+main h1, main a {
+  display: inline-block;
+  width: 50%;
+}
+
+main a img {
+  width: 240px;
+
+}
+
+footer {
+  background-color: #DBDBDB;
+  color: #555555;
+}
+
+.contact_info,
+footer ul,
+.address_info  {
+  display: inline-block;
+  width: 33%;
+}
+
+footer ul {
+  font-size: 12px;
+}
+
+footer ul a {
+  text-decoration: underline;
+}
+
+.logo, .slogan {
+  display: inline-block;
+  width: 50%;
+}
+
+.slogan {
+  font-family: Graduate;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 0px #000, -2px 2px 0px #000, -2px -2px 0px #000;
+}
+
+.slogan span {
+  display: block;
+}
+
+.slogan span + span {
+  font-size: 48px;
+}
